@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'futurelight';
+    src: url('https://files.jcink.net/uploads2/honeycauldron/FutureLight_BW15w.ttf');
+     }
+
+.cherry3 i {
+font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--main), 0.5) 41.07%, rgba(var(--accent), 0.5) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    padding-bottom: 2px;
+    background-repeat: repeat-x;
+}
+ 
+.cherry3 b {
+    font: 600 15.5px/150% nunito;
+  letter-spacing: 1px;
+  padding: 3px;
+  color: rgba(var(--main));
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+}
+ 
+
+.cherry3 {
+  font-family: nunito;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  margin: 15px;
+  padding: 35px;
+  text-align: justify;
+  margin-top: 20px;
+  border-top: 1px solid #DCDCDC;
+  color: #646464;
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+}
+ 
+.cherryTag a {
+    font: 15px 'Nunito', sans-serif;
+    text-decoration: none;
+    color: rgba(var(--accent), 0.6);
+    text-transform: uppercase;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cherryTag a::before {
+ content: '\a26';
+  font-size: 23px;
+    margin-right: 8px;
+    font-family: 'Starry';
+  background: rgba(var(--main), 0.9);
+background: linear-gradient(to bottom right, rgba(var(--main), 0.7) 0%, rgba(var(--accent), 0.7) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.cherryTag {
+ background: linear-gradient(to bottom right, rgba(var(--main)) 0%, rgba(var(--accent)) 100%); 
+padding: 20px;
+font-size: 13.5px;
+z-index: 1;  
+ width: 100%;
+  margin-left: -20px;
+  margin-bottom: -20px;
+  border-radius: 0px 0px 8px 8px;
+} 
+
+
+.cherry h2 {
+  width: 180px;
+  height: 8px;
+  position: relative;
+  bottom: -60px;
+  left: 90px;
+  font: 300 12px/100% nunito;
+  text-align: justify;
+  padding: 30px;
+  margin-top: -15px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+ 
+.cherry h2 a {
+background: linear-gradient(to left, rgba(var(--main)) 0%, rgba(var(--accent)) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.cherry h2 a:before {
+content: "#";
+  color: rba(var(--accent));
+}
+
+.cherry h1 b {
+ color: rgb(var(--accent));
+ font-weight: bold;
+}
+ 
+.cherry h1 {
+  height: 30px;
+  position: absolute;
+  top: 110px;
+  left: 55px;
+  font: 400 70px/100% futurelight;
+  text-transform: uppercase;
+  width: 320px;
+  color: #646464;
+  text-shadow: 1px 1px #FDFDFD, 1px -1px #FDFDFD, -1px 1px #FDFDFD, -1px -1px #FDFDFD;
+  transform: rotate(45deg);
+  letter-spacing: 6px;
+    z-index: 10;
+}     
+
+.cherry span {
+    font-size: 60px;
+   position: absolute;
+  top: 15px;
+  left: 25px;
+    color: #F7F7F7;
+    text-shadow: 4px 2px 1px rgba(var(--accent), .9);
+  transform: rotate(45deg);
+  z-index: 5;
+  mix-blend-mode: hard-light;
+}     
+
+  .cherry {
+    background: #FDFDFD;
+    padding: 15px;
+    margin: 0px auto;
+    border: 5px solid #F9F9F9;
+    box-shadow: -1px 1px #DCDCDC, 1px -1px #DCDCDC;
+    width: 450px;
+    position: relative;
+        border-radius: 7px;
+  }
+ 
+
+
+.cherryTop {
+height: 100px;
+    width: 100px;
+  border-radius: 15px;
+      -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+    position: relative;
+    margin: -65px 0px 0px 0px;
+    background-color: rgba(var(--main));
+    background: linear-gradient(40deg, rgba(var(--accent)) 0%, rgba(var(--main)) 100%);
+}
+
+.cherryImg {
+  height: 100px;
+    width: 100px;
+  border-radius: 15px;
+    position: relative;
+background-image: url(https://i.postimg.cc/XNdgjDFC/post-100x100.jpg);
+  mix-blend-mode: soft-light;
+}
