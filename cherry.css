@@ -101,19 +101,19 @@ content: "#";
 }
  
 .cherry h1 {
-  height: 30px;
-  position: absolute;
-  top: 110px;
-  left: 55px;
-  font: 400 70px/100% futurelight;
-  text-transform: uppercase;
-  width: 320px;
-  color: #646464;
-  text-shadow: 1px 1px #FDFDFD, 1px -1px #FDFDFD, -1px 1px #FDFDFD, -1px -1px #FDFDFD;
-  transform: rotate(45deg);
-  letter-spacing: 6px;
+    height: 30px;
+    position: absolute;
+    top: 140px;
+    left: 55px;
+    font: 400 50px/100% futurelight;
+    text-transform: uppercase;
+    width: 320px;
+    color: #646464;
+    text-shadow: 1px 1px #fdfdfd, 1px -1px #fdfdfd, -1px 1px #fdfdfd, -1px -1px #fdfdfd;
+    transform: rotate(45deg);
+    letter-spacing: 6px;
     z-index: 10;
-}     
+}
 
 .cherry span {
     font-size: 60px;
