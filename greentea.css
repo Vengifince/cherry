@@ -1,0 +1,135 @@
+.greentea {
+      width: 405px;
+    background: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    box-shadow: 1px 2px 0px #ebebeb;
+    font-family: 'nunito';
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-shadow: -1px 0 #fafafa, 0 1px #fafafa, 1px 0 #fafafa, 0 -1px #fafafa;
+}
+
+.greentea h1 {
+    position: relative;
+    top: -10px;
+    left: 90px;
+    text-transform: uppercase;
+    color: #646464;
+    text-shadow: 1px 1px #fdfdfd, 1px -1px #fdfdfd, -1px 1px #fdfdfd, -1px -1px #fdfdfd;
+    letter-spacing: 2px;
+    z-index: 10;
+    font-size: 12px;
+}
+
+.greentea h1 b {
+  font: 30px/100% nunito;
+    color: rgb(var(--alt), 0.75);
+    font-weight: bold;
+}
+
+.greentea h2 {
+  position: relative;
+    top: -20px;
+    left: 82px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font: 400 14px/100% nunito;
+  border-bottom: 2px solid #DCDCDC;
+}
+
+
+
+.greentea:before {
+    content: var(--unicode);
+ color: #fff;
+  text-shadow: 2px 2px 1px rgba(var(--alt), .6);
+    font-family: 'starry', 'Honeybee';
+    font-size: 55px;
+  position: relative;
+    display: block;
+    margin: 25px 20px -25px;
+   mix-blendmode: hard-light;
+  z-index: 10;
+}
+
+.gt-bd {
+ padding: 0px 65px 35px;
+    position: relative;
+    text-align: justify;
+    z-index: 3;
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+}
+
+.gt-bd:before {
+ content: '';
+    background-image: linear-gradient(180deg, rgba(var(--main), 1) 0%, rgba(var(--main), 0.5) 26%, rgba(var(--alt), 0.29) 60%, rgba(var(--alt), 0.09) 100%);
+    height: 250px;
+    width: 15%;
+    position: absolute;
+    top: -125px;
+    left: 15px;
+      border-image-source: linear-gradient(196deg, rgba(var(--main), 0.6) 0%, rgba(var(--main), 0.38) 30%, rgba(var(--alt), 0.20) 60%, rgba(var(--alt), 0.17) 100%);
+    border-left: 3px solid;
+    border-width: 3px;
+    border-image-slice: 2;
+    z-index: -1;
+}
+
+.gt-bd:after {
+    content: '';
+    border-style: solid;
+    border-color: transparent rgba(var(--alt), 0.1) transparent rgba(var(--alt), 0.1);
+    border-width: 0px 34px 20px 34px;
+    display: inline-block;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    z-index: 6;
+  
+}
+
+.gt-bd b {
+    color: rgba(var(--main), 0.85)!important;
+    font-weight: 900;
+}
+
+.gt-bd i {
+  font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--main), 0.6) 41.07%, rgba(var(--alt), 0.6) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 1.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.gt-tag {
+    border-radius: 8px 8px 0px 0px;
+    color: #fafafa;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.gt-tag a {
+ font: 600 12px 'Nunito', sans-serif;
+    text-decoration: none;
+    color: rgba(var(--main), 0.9)!important;
+    text-transform: uppercase;
+    padding: 10px;
+    border-top: 1.5px solid #DCDCDC;
+}
+
+.gt-tag a::before {
+    content: '\a39';
+    font-family: 'starry';
+    font-size: 12px;
+    margin-right: 2px;
+    color: rgba(var(--alt), 0.9)!important;
+}
