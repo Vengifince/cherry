@@ -1,0 +1,129 @@
+.cola {
+      position: relative;
+    margin: 25px auto;
+    width: 325px;
+    padding: 50px;
+    border-radius: 25px;
+    background: #fbfbfb;
+    border: 1px solid #dfdfdf;
+    box-shadow: 3px 3px 0px #e9e9e9;
+    overflow: hidden;
+}
+
+.cola:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(190deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
+    opacity: 0.58;
+}
+
+
+.cola-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 65px;
+    line-height: 75px;
+    z-index: 2;
+    position: relative;
+    color: #fbfbfb;
+    text-shadow: -1px 0 rgba(var(--main)), 0 1px rgba(var(--main)), 1px 0 rgba(var(--alt)), 0 -1px rgba(var(--alt));
+  top: -10px;
+}
+
+.cola-icon:before {
+    content: '';
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    border: 5px double #fbfbfb;
+}
+
+
+.cola-date {
+position: absolute;
+    top: 70px;
+    right: 0px;
+    height: 15px;
+    line-height: 15px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 25px;
+    font-family: nunito;
+    color: #fbfbfb;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: -1.5px 0 rgba(var(--main), 0.7);
+}
+
+.cola-body {
+  position: relative;
+    padding: 15px 25px 10px;
+    z-index: 1;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: nunito;
+    text-align: justify;
+    color: #6b6b6b;
+    line-height: 21px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.cola-body b {
+    color: rgba(var(--main), 0.85)!important;
+    font-weight: 700;
+}
+
+.cola i {
+  font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--main), 0.75) 41.07%, rgba(var(--alt), 0.75) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.cola-enotes {
+  font-size: 12px;
+    color: #9d9d9d;
+    line-height: 17px;
+  font-family: nunito;
+  margin-left: -60px;
+}
+
+.cola-enotes a {
+ font: 600 12px 'Nunito', sans-serif;
+    text-decoration: none;
+    color: rgba(var(--main), 0.9)!important;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.cola-enotes a::before {
+    content: '\a39';
+    font-family: 'starry';
+    font-size: 12px;
+    margin-right: 2px;
+    color: rgba(var(--alt), 0.9)!important;
+}
+
+.cola-body hr {
+    height: 1px;
+    border: none!important;
+    background: #dfdfdf;
+    margin: 45px auto 12px;
+    margin-left: -75px;
+}
