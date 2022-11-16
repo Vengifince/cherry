@@ -1,0 +1,140 @@
+.keylime {
+  width: 420px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-family: 'Nunito';
+    font-size: 11pt;
+    color: #7C7C7C;
+    line-height: 25px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.keylime .s {
+    position: absolute;
+    font-weight: bold;
+    font-size: 65px;
+    padding-top: 15px;
+    right: 30px;
+    top: 10px;
+    z-index: 2;
+}
+
+.keylime .s:before {
+      display: block;
+  background-image: linear-gradient( 180deg, rgba(var(--main), 0.85), rgba(var(--alt), 0.85) 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+    text-shadow: none;
+}
+
+
+.keylime-date {
+  width: 125px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    line-height: 40px;
+    text-align: center;
+    color: #A5A5A5;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: nunito;
+    font-size: 10pt;
+    z-index: 1;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.keylime-date span {
+    text-align: inline-block;
+    font-size: 12pt;
+    padding: 0px 5px;
+}
+
+.keylime-date b {
+    font-weight: bold;
+    color: rgba(var(--main), .85);
+}
+
+.keylime-txt {
+  margin: 100px 60px 30px 60px;
+    position: relative;
+    z-index: 2;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.keylime-txt b {
+  font-weight: 900;
+    color: rgba(var(--main), 0.75);
+}
+
+.keylime-txt i {
+font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.75) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.keylime-en {
+    background: -webkit-linear-gradient(135deg, rgba(var(--main), 0.8), rgba(var(--alt), 0.8));
+    padding: 50px 200px 30px 80px;
+    font-size: 9pt;
+  margin-left: -50px;
+      width: 290px;
+  --mask:
+  radial-gradient(65.60px at 50% 90.10px,#000 99%,#0000 101%) calc(50% - 68px) 0/136px 100%,
+    radial-gradient(65.60px at 50% -56.1px,#0000 99%,#000 101%) 50% 34px/136px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  color: white;
+  font-weight: bold;
+}
+
+.keylime-en a {
+    font-weight: 900;
+  z-index: 4;
+  position: relative;
+    padding: 4px 5px;
+    background-color: #f3f3f3;
+    color: rgba(var(--main), 0.65);
+    text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 11px;
+  text-decoration: none;
+  outline: 1px #f3f3f3 double;
+  outline-offset: 1px;
+}
+
+.keylime-en a::before {
+  color: rgba(var(--alt), 0.5);
+    content: '#';
+    font-size: 13px;
+    font-weight: 900;
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.keylime hr#hrlime {
+    border: 0px;
+    border-bottom: 2px solid rgba(var(--alt));
+    position: relative;
+    top: 50px;
+    z-index: 3;
+    opacity: 0.5;
+    width: 300px;
+    left: -40px;
+}
+
+.keylime-en b {
+  padding-left: 8px;
+}
