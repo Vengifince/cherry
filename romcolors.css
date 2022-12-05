@@ -1,0 +1,91 @@
+#alder {
+ --main: 75, 91, 128;
+--alt: 146, 178, 188;
+}
+ 
+ #alder .romcom-name:before {
+content:'\a3';
+}
+
+#angel {
+--main: 145, 130, 155;
+--alt: 204, 170, 170;
+}
+ 
+ #angel .romcom-name:before {
+content:'\e905';
+}
+
+#dante {
+--main: 154, 49, 49;
+--alt: 114, 118, 147;
+}
+ 
+ #dante .romcom-name:before {
+content:'\e909';
+}
+
+#faust {
+--main: 78, 124, 101;
+--alt: 43, 33, 58;
+}
+ 
+ #faust .romcom-name:before {
+content:'\a112';
+}
+
+
+#jules {
+--main: 205,147,126;
+--alt: 68,69,98;
+}
+ 
+ #jules .romcom-name:before {
+content:'\a47';
+}
+
+
+#juno {
+--alt: 242, 124, 124;
+--main: 53, 57, 78;
+}
+ 
+ #juno .romcom-name:before {
+content:'\a11';
+}
+
+#kazimir {
+--main: 116, 74, 137;
+--alt: 224, 180, 105;
+}
+ 
+ #kazimir .romcom-name:before {
+content:'\a17';
+}
+
+#klaus {
+--main: 72,43,66;
+--alt: 224,174,173;
+}
+ 
+ #klaus .romcom-name:before {
+content:'\a37';
+}
+
+#lysander {
+--main: 165, 116, 109;
+--alt: 133, 160, 152;
+}
+ 
+ #lysander .romcom-name:before {
+content:'\a42';
+}
+
+#samson {
+--main: 66, 45, 114;
+--alt: 34, 176, 201;
+}
+ 
+ #samson .romcom-name:before {
+content:'\a22';
+}
