@@ -89,3 +89,97 @@ content:'\a42';
  #samson .romcom-name:before {
 content:'\a22';
 }
+
+/* MAX COLORS */
+
+#alexei {
+--main: 103, 142, 173; 
+--alt: 91, 83, 80; 
+}
+ 
+ #alexei .romcom-name:before {
+content:'\a43';
+}
+
+
+#catrin {
+--main: 150,171,184;
+    --alt: 187,170,184;
+}
+ 
+ #catrin .romcom-name:before {
+content:'\a38';
+}
+
+#dahlia {
+--main: 168, 67, 91;
+    --alt: 117, 99, 127;
+}
+ 
+ #dahlia .romcom-name:before {
+content:'\a91';
+}
+
+#ezio {
+--main: 166, 58, 58;
+    --alt: 84, 101, 129;
+}
+ 
+ #ezio .romcom-name:before {
+content:'\a28';
+}
+
+#jasper {
+--main: 71, 63, 88;
+    --alt: 98, 107, 118;
+}
+ 
+ #jasper .romcom-name:before {
+content:'\a92';
+}
+
+
+#magpie {
+--main: 153, 145, 186;
+    --alt: 209, 175, 201;
+}
+ 
+ #magpie .romcom-name:before {
+content:'\a3';
+}
+
+#mikhail {
+--main: 159,126,90;
+    --alt: 52, 51, 49;
+}
+ 
+ #mikhail .romcom-name:before {
+content:'\a93';
+}
+
+#oliver {
+    --main: 153, 100, 92;
+    --alt: 144, 151, 123;
+}
+ 
+ #oliver .romcom-name:before {
+content:'\a12';
+}
+
+#riley {
+    --alt: 199, 113, 95;
+    --main: 217, 176, 110;
+}
+ 
+ #riley .romcom-name:before {
+content:'\e904';
+}
+
+#rosie {
+--main: 212, 159, 169;
+    --alt: 194, 166, 192;
+}
+ 
+ #rosie .romcom-name:before {
+content:'\a46';
+}
