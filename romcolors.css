@@ -90,6 +90,15 @@ content:'\a42';
 content:'\a22';
 }
 
+#xavier {
+--main: 68, 65, 84;
+--alt:  252, 139, 121;
+}
+ 
+ #xavier .romcom-name:before {
+content:'\a128';
+}
+
 /* MAX COLORS */
 
 #alexei {
