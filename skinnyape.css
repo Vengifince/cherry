@@ -70,19 +70,25 @@ background:  -webkit-linear-gradient(top, rgb(var(--main)), rgb(var(--alt)));
         margin: 27px;
         
 }
-
 .sa-txt b {
   color: rgba(var(--main), 0.95);
+  font-weight: 900;
 }
 
-.sa-txt i {
-font-weight: bold;
+ .sa-txt u {
+font-weight: 700;
     position: relative;
-    background: linear-gradient(90deg, rgba(var(--main), 0.75), rgba(var(--alt), 0.75));
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.75) 0%, rgba(var(--alt), 0.75) 100%);
     background-position: 0 100%;
-    background-size: 100% 2px;
+    background-size: 100% 2.5px;
     padding-bottom: 0px;
     background-repeat: repeat-x;
+}
+
+ .sa-txt i {
+    opacity: 0.75;
+    font-weight: 700;
 }
 
 .skinnyape a.user-tagged {
