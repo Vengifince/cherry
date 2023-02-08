@@ -38,7 +38,7 @@ content: '';
 }
 
 .cherry-header span:before {
-    background: -webkit-linear-gradient(top, rgb(var(--main)) 35%, rgb(var(--alt)));
+    background: -webkit-linear-gradient(top, rgb(var(--main)), rgb(var(--alt)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(var(--alt));
