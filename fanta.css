@@ -266,13 +266,13 @@ filter: grayscale(1);
 }
 
 .topic span {
-font-size: 12px;
+    font-size: 10px;
     line-height: 15px;
     font-weight: 400;
     margin: 5px 5px 5px 0px;
     top: 5px;
     position: relative;
-  text-shadow: none;
+    text-shadow: none;
 }
 
 .topic span:before {
