@@ -301,9 +301,9 @@ padding-left: 10px;
 }
 
 .ship div {
-color: rgba(var(--alt), 0.8);
+    color: rgba(var(--alt), 0.8);
     border-right: 1px solid #e0e0e0;
-    font-size: 14px;
+    font-size: 16.5px;
     margin: 2px 10px 4px 0px;
     padding: 5px;
     padding-left: 5px;
@@ -313,6 +313,9 @@ color: rgba(var(--alt), 0.8);
     color: #5554!important;
 }
 
+.ship.npc div {
+    color: #5554!important;
+}
 .m-star1 {
   font-size: 50px;
     color: #F4F4F4;
