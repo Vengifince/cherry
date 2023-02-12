@@ -125,13 +125,13 @@ text-shadow:none;
 }
 
 .monarch-tl {
-position: relative;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
-  padding-left: 25px;
-  padding-right: 5px;
-  z-index: 4;
+    padding-left: 25px;
+    padding-right: 10px;
+    z-index: 4;
 }
 
   .monarch-season { 
@@ -208,11 +208,11 @@ display: block;
 }
 
 .topic {
-  background: #E2E2E2;
-  border-radius: 10px;
+    background: #E2E2E2;
+    border-radius: 10px;
     padding: 20px;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 12px;
     display: block;
     position: relative;
     flex-grow: 2;
@@ -240,8 +240,8 @@ filter: grayscale(1);
 .topic span {
     display: inline-block;
     position: relative;
-    top: 2.5px;
-    font-weight: 600;
+    top: 3.5px;
+    font-weight: 700;
 }
 
 .topic span:before {
