@@ -71,7 +71,7 @@ position:relative;
 .monarch-rgt {
 position: absolute;
     right: 0px;
-    top: 60px;
+    top: 70px;
     width: 365px;
     height: 350px;
     border-radius: 15px 15px 0px;
@@ -119,7 +119,7 @@ text-shadow:none;
     position: absolute;
     right: -130px;
     top: 45px;
-    z-index: 2;
+    z-index: 45;
     width: 250px;
   letter-spacing: -2px;
 }
@@ -194,6 +194,7 @@ font-size: 32px;
     text-shadow: none;
     font-weight: 900;
     font-family: 'Kinda';
+   border-radius: 8px;
     text-transform: uppercase;
     padding: 4px 0px 2px 14px;
    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -210,7 +211,7 @@ font-size: 32px;
 }
 
 .topic {
-    background: #E2E2E2;
+    background: #EBEBEB;
     border-radius: 10px;
     padding: 20px;
     font-size: 10px;
@@ -222,6 +223,25 @@ font-size: 32px;
     border-left: none;
 }
 
+.topic:before {
+    content: '\e90d';
+    font-family: starry;
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    padding: 15px 35px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(left, rgba(var(--main), 1), rgba(var(--alt), 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+  opacity: .45;
+}
+
 .topic a {
     font-family: 'Kinda';
       text-decoration: none;
@@ -229,7 +249,7 @@ font-size: 32px;
     font-size: 20px;
     font-weight: 700;
     display: block;
-    background: -webkit-linear-gradient(left, rgba(var(--main), 1), rgba(var(--alt), 0.8));
+    background: -webkit-linear-gradient(left, rgba(var(--main), 1), rgba(var(--alt), 0.9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   text-shadow: none;
@@ -239,11 +259,20 @@ font-size: 32px;
 filter: grayscale(1);
 }
 
+.topic.fin:before {
+ content: '\a7';
+    font-family: starry;
+  font-size: 28px;
+}
+
 .topic span {
-    display: inline-block;
+font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 5px 5px 5px 0px;
+    top: 5px;
     position: relative;
-    top: 3.5px;
-    font-weight: 700;
+  text-shadow: none;
 }
 
 .topic span:before {
@@ -260,11 +289,12 @@ filter: grayscale(1);
 
 .monarch-ships {
   position: absolute;
-  background-color: #E2E2E2;
+     background: linear-gradient(#E5E5E5, #E5E5E5) padding-box, linear-gradient(to top, rgba(var(--main), 0.8), rgba(var(--alt), 0.8)) border-box;
+    border-left: 5px solid transparent;
   width: 345px;
-  height: 130px; 
+  height: 120px; 
   bottom: 0px;
-  left: 255px;
+  left: 250px;
   clip-path: polygon(0 0, 95% 0%, 320% 100%, 0% 100%);
   border-radius: 10px 0px;
   z-index: 5;
@@ -272,24 +302,28 @@ filter: grayscale(1);
 
 .ship {
 flex: 1 0 auto;
-    background: #eee;
+    background: #f4f4f4;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    color: #777;
     display: inline-flex;
-    flex-flow: row wrap;
-    align-content: center;
     align-items: center;
-    height: 20px;
-    line-height: 11px;
-    margin: 2.5px;
-    padding: 5px 10px;
+    justify-content: flex-start;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 1.5px;
+    padding: 3px 6px 0px;
     position: relative;
+    text-transform: uppercase;
 }
 
  .ship div {
 color: rgba(var(--alt), 0.8);
-    font-size: 16.5px;
-    margin: 2px 5px 4px -5px;
-    padding: 5px;
-    padding-left: 5px;
+    font-size: 18px;
+    margin: 2px 10px 4px 0px;
+    padding: 4px;
+    padding-left: 0px;
 }
 
 
@@ -299,9 +333,9 @@ color: rgba(var(--alt), 0.8);
     font-family: nunito;
     font-size: 12px;
     font-weight: 600;
-    padding: 2.5px;
+    padding: 10px 5px 5px 0px;
     margin-left: 8px;
-    height: 125px;
+    height: 100px;
     overflow: auto;
     text-align: center;
     display: inline-flex;
@@ -311,20 +345,17 @@ color: rgba(var(--alt), 0.8);
     align-items: center;
 }
 
-.ship.npc span {
-    color: #5554!important;
-}
-
 .ship.npc div {
     color: #5554!important;
 }
+
 .m-star1 {
   font-size: 50px;
     color: #F4F4F4;
     text-shadow: -1px 0 rgba(var(--main), 0.7), 0 1px rgba(var(--main), 0.7), 1px 0 rgba(var(--alt), 0.7), 0 -1px rgba(var(--alt), 0.7);
     position: absolute;
-    left: 15px;
-    top: 140px;
+    left: 18px;
+    top: 145px;
     z-index: 5;
 }
 
@@ -333,8 +364,8 @@ color: rgba(var(--alt), 0.8);
     color: #F4F4F4;
     text-shadow: -1px 0 rgba(var(--main), 0.7), 0 1px rgba(var(--main), 0.7), 1px 0 rgba(var(--alt), 0.7), 0 -1px rgba(var(--alt), 0.7);
     position: absolute;
-    left: 210px;
-   bottom: 120px;
+    left: 225px;
+   bottom: 100px;
     z-index: 20;
 }
 
@@ -364,7 +395,7 @@ background: linear-gradient(339deg, rgba(var(--main), 0.7) 0%, rgba(var(--alt), 
     position: absolute;
     top: 0px;
     right: 0px;
-    z-index: 3;
+    z-index: 30;
 }
 
 .monarch-gif overlay {
