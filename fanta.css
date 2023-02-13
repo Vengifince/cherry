@@ -266,24 +266,24 @@ filter: grayscale(1);
 }
 
 .topic span {
-    font-size: 10px;
+font-size: 12px;
+  font-weight: 700;
     line-height: 15px;
-    font-weight: 400;
     margin: 5px 5px 5px 0px;
     top: 5px;
     position: relative;
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .topic span:before {
-  content: '#';
+  content: '(';
     color: rgba(var(--alt));
    font-family: 'Kinda';
     margin-right: 1px;
   margin-left: 2px;
     position: relative;
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 900;
     }
 
