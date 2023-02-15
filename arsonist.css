@@ -56,7 +56,7 @@ text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
 .arsonist-body b
 {color: rgba(var(--main), 0.8)}
 
-.arsonist-body i
+.arsonist-body u
 {
    font-weight: bold;
     position: relative;
@@ -69,6 +69,9 @@ text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
     
 }
 
+.arsonist-body i
+{opacity: 0.75;
+  font-weight: 700;}
 
 .arsonist-date {
   font-size: 25px;
