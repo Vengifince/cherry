@@ -1,0 +1,120 @@
+ .peacebone {
+  background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #e9e9e9;
+    padding: 35px 35px 15px;
+    position: relative;
+    color: #666;
+    font-family: nunito!important;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 25px auto;
+    overflow: hidden;
+    text-align: left;
+    text-shadow: -1px 0 #fff9, 0 1px #fff9, 1px 0 #fff9, 0 -1px #fff9;
+    width: 425px;
+}
+
+.peacebone:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+     background: linear-gradient(to right, rgba(var(--main), .8), rgba(var(--alt), 0.7));
+}
+
+.bone-head {
+    width: 75px;
+    height: 75px;
+    font-size: 65px;
+    line-height: 75px;
+    z-index: 2;
+    position: relative;
+    color: #f4f4f4;
+    text-shadow: -1px 0 rgba(var(--main)), 0 1px rgba(var(--main)), 1px 0 rgba(var(--alt)), 0 -1px rgba(var(--alt));
+  top: 10px;
+}
+
+.bone-head:before {
+    content: '';
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    border: 5px double #f4f4f4;
+}
+
+.bone-date {
+  position: absolute;
+    top: 70px;
+    right: 0px;
+    height: 15px;
+    line-height: 15px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 25px;
+    font-family: nunito;
+    color: #fbfbfb;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: -1.5px 0 rgba(var(--main), 0.7);
+}
+
+.rib-cage {
+      font-size: 15.5px;
+    padding: 30px 50px 15px;
+    position: relative;
+}
+
+.rib-cage b {
+    color: rgba(var(--main), 0.8);
+    font-weight: 900;
+}
+
+.rib-cage i {
+  opacity: 0.8;
+    font-weight: 700;
+}
+
+.rib-cage u {
+  font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(var(--main), 0.7) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.bone-toes {
+  color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.bone-toes a {
+      color: rgba(var(--alt), 0.75);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.peacebone hr {
+    border: 0px;
+    border-bottom: 1px solid #A5A5A5;
+    opacity: .35;
+    margin: 10px auto 15px;
+    margin-left: 5px;
+}
