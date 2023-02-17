@@ -66,10 +66,10 @@ background-image: radial-gradient(rgba(var(--alt)) 20%, transparent 20%);
 
 .dog-tummy {
      font-size: 15px;
-    padding: 0px 60px 15px;
+padding: 25px 30px 15px 70px;
     position: relative;
     z-index: 1;
-}
+} 
 
 .heavydog b {
     color: rgba(var(--main), 0.8);
