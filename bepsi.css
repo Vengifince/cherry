@@ -481,7 +481,7 @@ width: 210px;
 
 .mood1-hover {
     background: linear-gradient(20deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
-    opacity: .4;
+    opacity: .25;
    width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -493,7 +493,7 @@ top: 44px;
 
 .mood2-hover {
     background: linear-gradient(20deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
-    opacity: .4;
+    opacity: .25;
    width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -505,7 +505,7 @@ top: 132px;
 
 .mood3-hover {
     background: linear-gradient(20deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
-    opacity: .4;
+    opacity: .25;
    width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -517,7 +517,7 @@ top: 0px;
 
 .mood4-hover {
     background: linear-gradient(20deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
-    opacity: .4;
+    opacity: .25;
    width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -529,7 +529,7 @@ top: 88px;
 
 .mood5-hover {
     background: linear-gradient(20deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
-    opacity: .4;
+    opacity: .25;
    width: 80px;
     height: 80px;
     border-radius: 50px;
