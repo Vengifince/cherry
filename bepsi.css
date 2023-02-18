@@ -446,7 +446,9 @@ background: #EBEBEB;
     padding-left: 0px;
 }
 
-
+.ship.npc div {
+    color: #5554!important;
+}
 
 .bepsi-moodboard {
 width: 210px;
