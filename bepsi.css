@@ -58,19 +58,19 @@ text-shadow: -1px 0 #fff9, 0 1px #fff9, 1px 0 #fff9,  0 -1px #fff9;
 .bepsi input {display: none}
 
 .bepsi label {
-  position: absolute;
-  left: 175px;
-  top: 80px;
-  font-size: 45px;
-  color: rgba(244, 244, 244, .9);
-  text-shadow: none;
-background: rgb(34,193,195);
-background: linear-gradient(339deg, rgba(var(--main), 0.7) 0%, rgba(var(--alt), 0.7) 100%);;
-  border-radius: 100%;
-  padding: 15px;
- transition-timing-function: ease-in-out;
+    position: absolute;
+    left: 175px;
+    top: 69px;
+    font-size: 45px;
+    color: rgba(244, 244, 244, .9);
+    text-shadow: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(339deg, rgba(var(--main), 0.7) 0%, rgba(var(--alt), 0.7) 100%);
+    border-radius: 100%;
+    padding: 15px;
+    transition-timing-function: ease-in-out;
     transition-duration: .5s;
-  z-index: 8;
+    z-index: 8;
 }
 
 .bepsi input:checked+label {opacity: 1;
