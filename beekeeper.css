@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Kinda';
+    src: url('https://files.jcink.net/uploads2/clowncityx/Kinda_Regular.ttf');
+     }
+
+.beekeeper {
+  background: #f4f4f4;
+   width: 410px;
+    border: 1px solid #ddd;
+    border-radius: 8px 4px 0px 8px;
+    box-shadow: 1px 1px 0px #e0e0e0;
+    color: #666;
+    font: 15px Quicksand;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 25px auto;
+    overflow: hidden;
+    padding: 35px 35px 15px;
+    position: relative;
+    text-align: left;
+}
+
+.bee-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 100%;
+    background: var(--img);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.bee-overlay {
+position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 100%;
+ background: linear-gradient(27deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
+  opacity: .65;
+      outline: 2px solid white;
+    outline-offset: -5px;
+}
+
+.bee-days {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Kinda';
+  font-size: 35px;
+background: -webkit-linear-gradient(320deg, rgb(var(--main)), rgb(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+  right: 8px;
+  top: 2px;
+  padding: 5px;
+  letter-spacing: -4px;
+  opacity: .55;
+}
+
+.bee-days:before {
+  content: "";
+  background: #ddd;
+  opacity: .25;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  position: absolute;
+  top: -45px;
+  left: -20px;
+}
+
+.bee-buzz {
+     font-size: 15px;
+padding: 45px 20px 15px 50px;
+    position: relative;
+  font-size: 15.5px;
+    padding: 55px 40px 45px 90px;
+    position: relative;
+    text-align: justify;
+}
+
+.bee-stinger {
+      padding: 5px 25px 0px;
+    position: relative;
+  left: 80px;
+    width: 250px;
+  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+              linear-gradient(to right, rgba(var(--main), 0.3), rgba(var(--alt), 0.25)) border-box;
+  border-top: 2px dashed transparent;
+  font-size: 11px;
+}
+
+.bee-stinger span {
+        color: white;
+    text-shadow: -1px 0 rgba(var(--main), 0.7), 0 1px rgba(var(--main), 0.7), 1px 0 rgba(var(--alt), 0.7), 0 -1px rgba(var(--alt), 0.7);
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 50px;
+    opacity: 0.75;
+    position: absolute;
+    top: -20px;
+    left: -105px;
+    z-index: 6;
+}
+
+.bee-stinger a {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 17px;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.bee-stinger a:before {
+  content: '\e91e';
+    font-size: 12px;
+    margin-right: 0px;
+    font-family: 'Starry';
+    background: rgba(var(--main), 0.9);
+    background: linear-gradient(to bottom right, rgba(var(--main), 0.9) 0%, rgba(var(--alt), 0.9) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.beekeeper b {
+  color: rgba(var(--main), 0.8);
+    font-weight: 900;
+}
+.beekeeper u {
+font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.5) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.beekeeper i {
+  opacity: 0.75;
+    font-weight: 700;
+}
