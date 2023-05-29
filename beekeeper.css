@@ -113,6 +113,7 @@ padding: 45px 20px 15px 50px;
     display: inline;
     position: relative;
     text-transform: uppercase;
+    color: dimgray;
 }
 
 .bee-stinger a:before {
