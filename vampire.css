@@ -89,20 +89,20 @@ padding: 0px 35px 35px;
     padding: 40px;
     position: absolute;
     top: -27px;
-    right: -102px;
+    right: -100px;
     z-index: 2;
 }
 
 .coffin span:before {
-     color: #424242;
-  text-shadow: 2px 2px 0px rgba(var(--alt), 0.5);
+    color: #424242;
+    text-shadow: 2px 2px 0px rgba(var(--alt), 0.5);
     display: inline-block;
     -webkit-font-smoothing: antialiased;
     font-size: 60px;
     opacity: 0.9;
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 13px;
+    left: 7px;
     z-index: 3;
 }
 
@@ -125,15 +125,15 @@ font-size: 50px;
 }
 
 .halo2 {
-font-size: 50px;
+    font-size: 50px;
     background: -webkit-linear-gradient(153deg, rgb(var(--main)), rgb(var(--alt)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(var(--alt));
     position: absolute;
-    left: 383px;
-    top: -46px;
-    transform: rotate(182deg);
+    right: -134px;
+    top: 6px;
+    transform: rotate(254deg);
     z-index: 1;
 }
 
