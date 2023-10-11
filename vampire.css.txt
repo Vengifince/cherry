@@ -1,0 +1,52 @@
+Version: 4.1.1.3686210
+Platform: steam
+
+-------------------------
+Altered/Added files 25
+bin\Part-2-BG3AE-668-RC-2-1691520735\NativeMods\BG3AchievementEnabler.dll
+Data\Public\GustavDev\ScriptMaterialOverrides\ScriptMaterialOverrideParameters.lsx
+Data\Public\GustavDev\ScriptMaterialOverrides\ScriptMaterialOverridePresets.lsx
+Data\Public\Shared\Stats\Generated\Data\XPData.txt
+Data\Public\Shared\Content\Assets\Characters\Character Editor Presets\Origin Presets\[PAK]_Astarion\_merged.lsf
+Data\Public\Shared\Content\Assets\Characters\Character Editor Presets\Origin Presets\[PAK]_Shadowheart\_merged.lsf
+Data\AstarionTweaks v2\Public\Shared\Content\Assets\Characters\Character Editor Presets\Origin Presets\[PAK]_Astarion\_merged.lsf
+Data\Generated\Public\Shared\Assets\Characters\_Anims\Tieflings\_FemaleStrong\Resources\TIF_FS_NKD_Head_Karlach.GR2
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\_FemaleStrong\Resources\TIF_FS_NKD_Hair_Karlach.GR2
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\_FemaleStrong\Resources\TIF_FS_NKD_Horns_Karlach.GR2
+Data\Generated\Public\Shared\Assets\Characters\_Models\_SharedAssets\SHARED_Hair\Resources\HAIR_Karlach_MSKA.DDS
+Data\Generated\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_CLEA.dds
+Data\Generated\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_HMVY.dds
+Data\Generated\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_MSK.dds
+Data\Generated\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_NM.dds
+Data\Generated\Public\Shared\Assets\Characters\_Models\HalfElves\HEL_F_NKD\HEL_F_Head_Shadowheart\Resources\HEL_F_NKD_Head_Shadowheart_HMVY.DDS
+Data\Generated\Public\Shared\Assets\Characters\_Models\Humans\_Female\_Hair\Resources\HAIR_HUM_F_Shadowheart_Spring.gr2
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\TIF_FS_NKD\TIF_FS_Head_Karlach\TIF_FS_Head_Karlach\Resources\TIF_FS_NKD_Head_Karlach_CLEA.DDS
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\TIF_FS_NKD\TIF_FS_Head_Karlach\TIF_FS_Head_Karlach\Resources\TIF_FS_NKD_Head_Karlach_HMVY.DDS
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\TIF_FS_NKD\TIF_FS_Head_Karlach\TIF_FS_Head_Karlach\Resources\TIF_FS_NKD_Head_Karlach_MSK.DDS
+Data\Generated\Public\Shared\Assets\Characters\_Models\Tieflings\TIF_FS_NKD\TIF_FS_Head_Karlach\TIF_FS_Head_Karlach\Resources\TIF_FS_NKD_Head_Karlach_NM.DDS
+Data\Public\Shared\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_CLEA.dds
+Data\Public\Shared\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_HMVY.dds
+Data\Public\Shared\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_MSK.dds
+Data\Public\Shared\Public\Shared\Assets\Characters\_Models\Elves\ELF_M_NKD\Elf_M_Astarion\Resources\ELF_M_NKD_Head_Astarion_NM.dds
+
+-------------------------
+Files in Mods folder 19
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\arcane-dice_1.1.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\AS_ExtraDyes.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\BasketEquipmentSFW.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Crystallis - Amethyst Dice.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Customizer.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\DiceSetExpansion.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\DyeDyeDye.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\GoldenDeath.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\HairKitchen.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\ImprovedUI.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Kyra's head and hair.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\LeatherNBone.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\ModFixer.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\ModularCiri.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\New Character Creation Presets WIP.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\PurchaseClothesAllInOne.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Vessnelle_Hair1.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Vessnelle_Hair1optional.pak
+C:\Users\loric\AppData\Local\Larian Studios\Baldur's Gate 3\Mods\Vessnelle_Hair2.pak
