@@ -1,0 +1,207 @@
+.vampire {
+   background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 1px 1px 0px #e0e0e0;
+    color: #666;
+    font: 15px Quicksand;
+    font-weight: 500;
+    margin: 25px auto;
+    overflow: hidden;
+    padding: 35px 35px 15px;
+    position: relative;
+    text-align: left;
+     width: 390px;
+}
+
+.fangs-bar {
+    background: linear-gradient(27deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 35px;
+}
+
+.neckwound {
+  height: 0px;
+  padding: 10px;
+     background: linear-gradient(#f4f4f4, #f4f4f4) padding-box, linear-gradient(to left, rgba(var(--main), 0.75), rgba(var(--alt), 0.75)) border-box;
+    border-bottom: 2px dashed transparent;
+  width: 150px;
+  margin-left: 0px;
+}
+
+.lilbite {
+color: rgb(var(--main), 0.75);
+    position: absolute;
+    right: 237px;
+    top: 48px;
+    transform: rotate(1deg);
+    font-size: 15px;
+}
+
+.lilbite:before {
+    content:'\a137'; 
+	font-family:'starry'; 
+}
+
+.tombstone {
+    color: #626262;
+    font-size: 22px;
+    margin: -15px 0px;
+    position: relative;
+    line-height: 25px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.tombstone b {
+    position: relative;
+  top: -2px;
+  padding: 8px;
+  font-size: 15px;
+  color: rgba(var(--main), 0.85);
+     text-shadow: none;
+}
+
+.ghoul {
+font-size: 15px;
+    line-height: 25px;
+padding: 50px 50px 25px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.coffin {
+padding: 0px 35px 35px;
+    position: relative;
+    bottom: -20px;
+    left: -15px;
+    width: 235px;
+}
+
+.coffin span {
+    content: '';
+    background: #f4f4f4;
+    border-radius: 100%;
+    padding: 40px;
+    position: absolute;
+    top: -27px;
+    right: -102px;
+    z-index: 2;
+}
+
+.coffin span:before {
+     color: #424242;
+  text-shadow: 2px 2px 0px rgba(var(--alt), 0.5);
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    opacity: 0.9;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+}
+
+.halo1 {
+font-size: 50px;
+    background: -webkit-linear-gradient(352deg, rgb(var(--main)), rgb(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+    position: absolute;
+    left: 297px;
+    top: -39px;
+    transform: rotate(70deg);
+    z-index: 1;
+}
+
+.halo1:before {
+    content:'\e905'; 
+	font-family:'starry'; 
+}
+
+.halo2 {
+font-size: 50px;
+    background: -webkit-linear-gradient(153deg, rgb(var(--main)), rgb(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+    position: absolute;
+    left: 383px;
+    top: -46px;
+    transform: rotate(182deg);
+    z-index: 1;
+}
+
+.halo2:before {
+    content:'\e905'; 
+	font-family:'starry'; 
+}
+
+.hrhrhg {
+font: 12px Quicksand;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-left: -20px;
+    padding: 5px 15px 0px;
+    position: relative;
+    background: linear-gradient(#f4f4f4, #f4f4f4) padding-box, linear-gradient(to right, rgba(var(--main), 0.65), rgba(var(--alt), 0.7)) border-box;
+    border-top: 2px dashed transparent;
+}
+
+.hrhrhg a {
+      font-weight: 900;
+    line-height: 17px;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.hrhrhg a:before {
+    content: '\e91e';
+    font-size: 12px;
+    margin-right: 0px;
+    font-family: 'Starry';
+    background: -webkit-linear-gradient(0deg, rgb(var(--main)), rgb(var(--alt), 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lilnom {
+font-size: 15px;
+    color: rgb(var(--alt), 0.75);
+    position: absolute;
+    right: -18px;
+    top: -13px;
+}
+
+.lilnom:before {
+    content:'\a137'; 
+	font-family:'starry'; 
+}
+
+.ghoul b {
+    color: rgba(var(--main), 0.8);
+    font-weight: 900;
+}
+
+.ghoul i {
+    opacity: 0.75;
+    font-weight: 700;
+}
+
+.ghoul u {
+  font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.6) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
