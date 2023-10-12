@@ -155,11 +155,12 @@ font: 12px Quicksand;
 }
 
 .hrhrhg a {
-      font-weight: 900;
+    font-weight: 900;
     line-height: 17px;
     display: inline;
     position: relative;
     text-transform: uppercase;
+    color: dimgray;
 }
 
 .hrhrhg a:before {
