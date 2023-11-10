@@ -1,0 +1,115 @@
+.magic-city
+{position: relative;
+margin:  35px auto;
+padding-left: 40px;
+width: 480px;
+min-height: 300px;
+}
+
+.mc-body
+{width: 330px;
+ background: #f4f4f4;
+  min-height: 110px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+padding-top: 150px;
+text-align: justify;
+font-family: 'Quicksand', sans-serif;
+font-size: 15px;
+  line-height: 23px;
+  border-radius: 10px;
+  border-bottom: 15px solid #2F2F2F;
+color: #2F2F2F;
+}
+
+.mc-big-circle
+{width: 130px;
+height: 130px;
+  position: absolute;
+background: #f4f4f4;
+  margin-top: -30px;
+  margin-left: -30px;
+border-radius: 90px;}
+
+.mc-image
+
+{width: 100px;
+height: 100px;
+background-image: ;
+margin-top: 13px;
+  margin-left: 10px;
+filter: grayscale(1);}
+
+.mc-small-circle
+{
+  width: 50px;
+  height: 50px;
+border-radius: 90px;
+  padding: 10px;
+  margin-top: -50px;
+  margin-left: 75px;
+  background-color: rgba(var(--alt));
+  mix-blend-mode: multiply;
+  color: #2F2F2F;
+  font-size: 50px;
+}
+
+.mc-date
+{width: 330px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+font-size: 35px;
+color: rgba(var(--alt));
+background: rgb(244,244,244);
+background: linear-gradient(90deg, rgba(244,244,244,0) 25%, rgba(47,47,47,.40) 100%);
+text-align: right;
+padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+border-radius: 0px 10px 0px 0px;
+margin-top: -105px;
+margin-left: 120px;
+position: absolute;
+line-height: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2F2F2F;}
+
+.mc-body hr
+{background-color: rgba(var(--alt));
+padding: 1px;
+border: none;
+width: 200px;
+margin-right: -50px;
+margin-bottom: 20px;}
+
+.mc-body b
+{color: rgba(var(--main));
+font-weight: 900;}
+
+.mc-body i {
+    opacity: 0.75;
+    font-weight: 700;
+}
+
+.mc-body u {
+  font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.6) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.mc-notes
+{font-size: 13px;}
+
+.mc-notes a
+{background-color: rgba(var(--alt));
+padding: 5px;
+  text-decoration: none;
+  color: #f4f4f4;
+  line-height: 40px;
+}
