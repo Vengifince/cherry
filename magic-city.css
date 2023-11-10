@@ -39,7 +39,8 @@ height: 100px;
 background-image: ;
 margin-top: 13px;
   margin-left: 10px;
-filter: grayscale(1);}
+filter: grayscale(1);
+border-radius: 90px;}
 
 .mc-small-circle
 {
