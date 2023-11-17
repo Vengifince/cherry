@@ -1,0 +1,161 @@
+.nerdyprudes {
+  width: 450px;
+  background: #f4f4f4;
+  color: 666;
+  position: relative;
+  margin: 25px auto;
+  border-radius: 15px;
+  font: 15px Quicksand;
+  font-weight: 500;
+  box-shadow: 2px 2px 1px 0px rgba(var(--main), 0.2);
+}
+
+.clivesdale {
+  height: 40px;
+  padding-bottom: 20px;
+  margin-left: 150px;
+   background: linear-gradient(#f4f4f4, #f4f4f4) padding-box, linear-gradient(to right, rgba(var(--main), 0.45), rgba(var(--alt), 0.45)) border-box;
+    border-bottom: 2px solid transparent;
+}
+
+.clivesdale span {
+  content: '';
+    background: #f4f4f4;
+    border-radius: 100%;
+    padding: 45px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+  z-index: 2;
+}
+
+.clivesdale span:before {
+     color: #424242;
+  text-shadow: 2px 2px 0px rgba(var(--alt), 0.7);
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    opacity: 0.9;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+}
+
+.halo1 {
+font-size: 50px;
+    background: -webkit-linear-gradient(352deg, rgb(var(--main)), rgb(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transform: rotate(70deg);
+    z-index: 1;
+}
+
+.halo1:before {
+    content:'\e905'; 
+	font-family:'starry'; 
+}
+
+.halo2 {
+font-size: 50px;
+    background: -webkit-linear-gradient(153deg, rgb(var(--main)), rgb(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(var(--alt));
+    position: absolute;
+    left: 110px;
+    top: 49px;
+    transform: rotate(243deg);
+    z-index: 1;
+}
+
+.halo2:before {
+    content:'\e905'; 
+	font-family:'starry'; 
+}
+
+.clivesdate {
+    font-weight: bold;
+  opacity: 0.7;
+    position: absolute;
+    right: 40px;
+    top: 41px;
+    height: 15px;
+    line-height: 20px;
+}
+
+.clivesdate b {
+  position: relative;
+  color: rgba(var(--main));
+     text-shadow: none;
+}
+
+.loser {
+ padding: 80px 60px;
+  line-height: 25px;
+}
+
+.loser b
+{color: rgba(var(--main));
+font-weight: 900;}
+
+.loser i {
+    opacity: 0.4;
+    font-weight: 700;
+}
+
+.loser u {
+  font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.6) 0%, rgba(var(--alt), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.graceishavingsexwithafuckingghost {
+position: relative;
+    margin-left: 0px;
+   background: linear-gradient(#f4f4f4, #f4f4f4) padding-box, linear-gradient(to right, rgba(var(--main), 0.45), rgba(var(--alt), 0.45)) border-box;
+    border-top: 2px solid transparent;
+    opacity: 0.9;
+    color: #666;
+    font-size: 12px;
+  margin-top: 40px;
+}
+
+.graceishavingsexwithafuckingghost a {
+    font-weight: 900;
+    line-height: 17px;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.graceishavingsexwithafuckingghost a:before {
+  content: '\e91e';
+    font-size: 12px;
+    margin-right: 0px;
+    font-family: 'Starry';
+    background: rgba(var(--main), 0.9);
+    background: linear-gradient(to bottom right, rgba(var(--main), 0.9) 0%, rgba(var(--alt), 0.9) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homecoming {
+  position: absolute;
+      width: 100%;
+    height: 25px;
+  bottom: 0px;
+  left: 0px;
+    background: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+    opacity: 0.9;
+      border-radius: 0px 0px 15px 15px;
+}
