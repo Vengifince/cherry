@@ -1,0 +1,177 @@
+/* don't worry about it */
+
+.psychicfire {
+  color: #666;
+    background-color: #f9f9f9;
+   box-shadow: 1px 1px 1px 0px rgba(var(--alt), 0.4);
+    border-radius: 15px;
+  font: 15px Quicksand;
+  font-weight: 500;
+    position: relative;
+    width: 450px;
+    margin: 40px auto;
+  --underline: -webkit-linear-gradient(45deg, rgba(var(--main), .45) 0%, rgba(var(--alt), .45) 50%, rgba(var(--trio), .45) 100%);
+  --grad: -webkit-linear-gradient(45deg, rgba(var(--main), .85) 0%, rgba(var(--alt), .85) 50%, rgba(var(--trio), .85) 100%);
+}
+
+.pf-top {
+    position: relative;
+    height: 125px;
+    margin: -1px -1px 0px -1px;
+    overflow: hidden;
+}
+
+.pf-colorpop {
+background: var(--grad);
+    background-size: 100%;
+    height: 70px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.pf-colorpop div {
+position: absolute;
+    right: 0px;
+    height: 70px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    -webkit-mask-image: url(https://i.postimg.cc/4N93Sg3x/option5.png);
+    -webkit-mask-size: auto;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+.pf-colorpop div:before {
+content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    background: var(--grad);
+  }
+
+.pf-top h1 {
+    position: absolute;
+    z-index: 1;
+    color: #f9f9f9;
+    font: 900 30px Quicksand;
+    line-height: 45px;
+    left: 250px;
+    bottom: -20px;
+    margin: 0px;
+}
+
+.pf-top b {
+    position: relative;
+  top: -6px;
+  padding: 8px;
+  font-size: 15px;
+     text-shadow: none;
+}
+
+.pf-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 65px;
+    z-index: 2;
+    position: relative;
+    color: #fbfbfb;
+    text-shadow: -1px 0 rgba(var(--main)), 0 1px rgba(var(--main)), 1px 0 rgba(var(--alt)), 0 -1px rgba(var(--alt));
+    top: -50px;
+    left: 75px;
+}
+
+.pf-icon:before {
+content: '';
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: -15px;
+    left: -14px;
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    border: 6px double #fbfbfb;
+}
+
+.lilbite {
+color: #f9f9f9;
+    position: absolute;
+    right: -22px;
+    top: -19px;
+    transform: rotate(360deg);
+    font-size: 25px;
+}
+
+.lilbite:before {
+    content:'\a137'; 
+	font-family:'starry'; 
+}
+
+.lilbite div {
+    color: #f9f9f9;
+    position: absolute;
+    right: 116px;
+    top: 53px;
+    transform: rotate(180deg);
+    font-size: 20px;
+}
+
+.lilbite div:before {
+    content:'\a137'; 
+	font-family:'starry'; 
+}
+
+.pf-body {
+    padding: 0px 75px 25px 75px;
+    position: relative;
+    z-index: 1;
+    line-height: 28px;    
+    text-align: justify;
+}
+
+.pf-body b {
+  color: rgba(var(--main), 0.85);
+    font-weight: 900;
+}
+
+.pf-body u {
+    font-weight: 900;
+    border-image-source: var(--underline);
+    border-bottom: 2px solid;
+    border-width: 2px;
+    border-image-slice: 2;
+    letter-spacing: 0px;
+ text-decoration: none;
+}
+
+.pf-tag {
+  font-size: 12px;
+    text-align: right;
+    margin: 10px 20px 30px;
+    line-height: 15px;
+   background: linear-gradient(#f9f9f9, #f9f9f9) padding-box, var(--underline) border-box;
+    border-top: 2px solid transparent;
+    opacity: 0.9;
+  padding: 7px;
+}
+
+.pf-tag a {
+  font-weight: 900;
+    line-height: 17px;
+    display: inline;
+    position: relative;
+text-transform: uppercase;
+}
+
+
+ .pf-tag a:before {
+  content: '\e91e';
+    font-size: 12px;
+    margin-right: 0px;
+    font-family: 'Starry';
+    background: rgba(var(--main), 0.9);
+   background: linear-gradient(2deg, rgba(var(--main), 0.7) 0%, rgba(var(--alt), 0.98) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
