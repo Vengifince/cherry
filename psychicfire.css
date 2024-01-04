@@ -157,13 +157,13 @@ color: #f9f9f9;
 }
 
 .pf-tag a {
-  font-weight: 900;
+color: dimgray;
+    font-weight: 900;
     line-height: 17px;
     display: inline;
     position: relative;
-text-transform: uppercase;
+    text-transform: uppercase;
 }
-
 
  .pf-tag a:before {
   content: '\e91e';
