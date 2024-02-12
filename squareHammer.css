@@ -1,0 +1,247 @@
+.squareHammer {
+ margin: 30px auto; 
+ height: auto;
+ width: auto;
+}
+
+.shTabs {
+ margin: 15px auto; 
+ position: relative;
+ width: 520px; 
+ height:  650px;
+}
+
+.shTab {
+ float: left; /* CHANGE TO DISPLAY:BLOCK FOR VERTICAL TABS */
+}
+
+/* position your tab labels in here - also use margins to space your labels - you kind of have to eye until it's centered bc the math with tabs gets confusing */
+.shTab label {
+ display: block; /* this lets you fix the label dimensions */
+ width: 20px;
+ height: 20px;
+ background: #eee;
+  border-radius: 90px 90px 0px 0px;
+ margin: 5px;
+ position: relative;
+ left: 0px;
+ top: -25px;
+ z-index: 3;
+}
+
+.shTab input[type=radio]:checked ~ label {
+ background: rgba(var(--second));
+ z-index: 2;
+}
+
+.shTab input[type=radio] {
+ display: none; /* DON'T EDIT */
+}
+
+/* if you want tab transitions they go here */
+.shContent {
+ position: absolute;
+ top: 0px;
+ bottom: 0px;
+ left: 0px;
+ right: 0px;
+ background: #F8F8F8;
+ padding: 20px;
+ border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0px 0px 20px 0px;
+}
+
+/* if you want tab transitions they also go here */
+.shTab input[type=radio]:checked ~ label ~ .shContent {
+ z-index: 1;
+}
+
+.shColorBlock
+
+{position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 650px;
+width: 220px;
+  background-color: rgba(var(--first));
+}
+
+.shImageGradient
+{
+  height: 220px;
+width: 220px;
+border-radius: 180px;
+  background: linear-gradient(180deg, rgba(var(--second)) 0%, rgba(var(--third)) 100%);
+  margin-top: 10px;
+  margin-left: 40px;
+  border: 5px solid #f8f8f8;
+  font-size: 75px;
+ font-family: "Bebas Neue", sans-serif;
+  fill: rgba(var(--first));
+}
+
+.shBigImage
+{height: 200px;
+width: 200px;
+border-radius: 180px;
+margin-left: 10px;
+margin-top: 10px;}
+
+.shBasics
+{font-family: "Montserrat", sans-serif;
+font-size: 15px;
+padding: 15px;
+font-weight: 600;
+  margin-top: 5px;
+letter-spacing: 3px;
+text-align: justify;
+line-height: 20px;}
+
+.shBasics b
+{font-weight: 800;
+color: rgba(var(--second))}
+
+.shCharDesc
+{height: 240px;
+  font-family: "Montserrat", sans-serif;
+padding: 25px;
+  margin-top: -20px;
+font-size: 15px;
+text-align: justify;
+  overflow-y: scroll;
+}
+
+
+.shCharDesc::-webkit-scrollbar {
+  width: 2px;}
+.shCharDesc::-webkit-scrollbar-thumb {
+background: rgba(var(--second))}
+
+
+.shCharFC
+{font-size: 10px;
+padding: 10px;
+font-family: "Montserrat", sans-serif;
+font-weight: 800;
+text-align: justify;
+overflow: hide;}
+
+.shCharQuote{
+ width: 220px;
+  height: 120px;
+ margin-left: 230px;
+padding-left: 20px;
+  text-align: justify;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12px;
+}
+
+.shCharQuote u
+{position: relative;
+    text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--second), 0.5) 41.07%, rgba(var(--third), 0.5) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;}
+
+.shSkills
+{width:240px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 250px;}
+
+.shSkillsTitle
+{margin: 10px;
+font-family: "Bebas Neue", sans-serif;}
+
+.shSkillsBar
+{background: #dedede;
+    border-radius: 40px;
+    width: 220px;
+    height: 7px;
+    margin: 10px;}
+
+.shSkillsFill
+{background: linear-gradient(to right, rgba(var(--second), 0.8), rgba(var(--third), 0.8));
+    width: 0%;
+ padding: 3px;
+  border-radius: 40px;}
+
+.shNotes
+{width: 250px;
+  height: 200px;
+ margin-left: 230px;
+margin-top: 10px;
+font-size: 13px;
+text-align: justify;
+  overflow-y: scroll;
+font-family: "Montserrat", sans-serif;}
+
+.shNotes u{
+  position: relative;
+  font-size: 15px;
+text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--second), 0.5) 41.07%, rgba(var(--third), 0.5) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+font-weight: 800}
+
+.shNotes::-webkit-scrollbar {
+  width: 2px;}
+.shNotes::-webkit-scrollbar-thumb {
+background: rgba(var(--second))}
+
+.shRelations
+{width: 250px;
+  height: 100px;
+ margin-left: 230px;
+margin-top: 10px;
+font-size: 13px;
+text-align: justify;
+  overflow-y: scroll;
+font-family: "Montserrat", sans-serif;}
+
+.shRelations u{
+  position: relative;
+  font-size: 15px;
+text-decoration: none;
+    background: linear-gradient(130deg, rgba(var(--second), 0.5) 41.07%, rgba(var(--third), 0.5) 76.05%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+font-weight: 800}
+
+.shRelations::-webkit-scrollbar {
+  width: 2px;}
+.shRelations::-webkit-scrollbar-thumb {
+background: rgba(var(--second))}
+
+.shIconBig
+{position: absolute;
+margin-top: -180px;
+  margin-left: 30px;
+font-size: 60px;
+  padding: 15px;
+color: rgba(var(--second));
+  background: #f8f8f8;
+  border-radius: 180px;
+  height: 60px;
+  width: 60px;
+}
+
+.shIconSmall
+{position: absolute;
+  width: 20px;
+height: 20px;
+  margin-left: 180px;
+  font-size: 20px;
+  padding: 15px;
+background: #f8f8f8;
+  border-radius: 180px;
+  color: rgba(var(--third))
+}
