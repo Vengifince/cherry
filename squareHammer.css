@@ -20,7 +20,7 @@
  display: block; /* this lets you fix the label dimensions */
  width: 20px;
  height: 20px;
- background: #eee;
+ background: #f8f8f8;
   border-radius: 90px 90px 0px 0px;
  margin: 5px;
  position: relative;
@@ -135,6 +135,7 @@ padding-left: 20px;
   text-align: justify;
   font-family: "Bebas Neue", sans-serif;
   font-size: 12px;
+ line-height: 30px;
 }
 
 .shCharQuote u
