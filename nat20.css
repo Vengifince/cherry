@@ -165,7 +165,7 @@ font-size: 12px;
     text-align: right;
     margin: 10px 20px 10px;
     line-height: 15px;
-    background: linear-gradient(#f9f9f9, #f9f9f9) padding-box, var(--underline) border-box;
+    background: linear-gradient(#f6f6f6, #f6f6f6) padding-box, var(--underline) border-box;
     border-top: 2px solid transparent;
     opacity: 0.65;
     padding: 7px;
