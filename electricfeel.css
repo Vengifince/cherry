@@ -42,7 +42,8 @@ font-family: "Quicksand", sans-serif;
 line-height: 25px;
 color: #555555;
 border-left: 1px solid rgba(var(--main));
-border-right: 1px solid rgba(var(--main));}
+border-right: 1px solid rgba(var(--main));
+           font-size: 16px;}
 
 .ef-body hr{
     border: 0;
