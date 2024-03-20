@@ -1,0 +1,108 @@
+.cookbook {position: relative;
+  margin: 50px auto;
+width: 450px;
+min-height: 280px;
+ background-color: #f7f7f7;
+ border-radius: 10px;
+  border-right: solid 2px #dbdbdb;
+  border-bottom: solid 2px #dbdbdb;
+}
+
+.cookbook-top {border-radius: 10px;
+  width:450px;
+  height:250px;
+background: linear-gradient(120deg, rgba(var(--main)) 0%, rgba(var(--accent)) 100%);
+
+  clip-path: polygon( 0% 17%,2.796% 15.933%,2.796% 15.933%,3.71% 15.592%,4.776% 15.198%,5.977% 14.762%,7.294% 14.298%,8.712% 13.817%,10.212% 13.332%,11.777% 12.855%,13.391% 12.399%,15.036% 11.977%,16.694% 11.6%,16.694% 11.6%,18.358% 11.279%,20.02% 11.018%,21.681% 10.817%,23.341% 10.679%,25% 10.604%,26.659% 10.594%,28.319% 10.651%,29.98% 10.775%,31.642% 10.969%,33.306% 11.233%,33.306% 11.233%,34.967% 11.569%,36.631% 11.973%,38.298% 12.444%,39.967% 12.977%,41.638% 13.571%,43.31% 14.221%,44.982% 14.926%,46.655% 15.681%,48.328% 16.485%,50% 17.333%,50% 17.333%,51.672% 18.22%,53.345% 19.129%,55.018% 20.046%,56.69% 20.955%,58.362% 21.842%,60.033% 22.69%,61.702% 23.485%,63.369% 24.212%,65.033% 24.856%,66.694% 25.4%,66.694% 25.4%,68.358% 25.822%,70.02% 26.13%,71.681% 26.323%,73.341% 26.405%,75% 26.375%,76.659% 26.235%,78.319% 25.987%,79.98% 25.63%,81.642% 25.168%,83.306% 24.6%,83.306% 24.6%,84.964% 23.941%,86.609% 23.198%,88.223% 22.393%,89.788% 21.549%,91.288% 20.688%,92.706% 19.831%,94.023% 19.002%,95.224% 18.222%,96.29% 17.514%,97.204% 16.9%,100% 15%,100% 0%,97.204% 0%,97.204% 0%,96.29% 0%,95.224% 0%,94.023% 0%,92.706% 0%,91.288% 0%,89.788% 0%,88.223% 0%,86.609% 0%,84.964% 0%,83.306% 0%,83.306% 0%,81.642% 0%,79.98% 0%,78.319% 0%,76.659% 0%,75% 0%,73.341% 0%,71.681% 0%,70.02% 0%,68.358% 0%,66.694% 0%,66.694% 0%,65.033% 0%,63.369% 0%,61.702% 0%,60.033% 0%,58.362% 0%,56.69% 0%,55.018% 0%,53.345% 0%,51.672% 0%,50% 0%,50% 0%,48.328% 0%,46.655% 0%,44.982% 0%,43.31% 0%,41.638% 0%,39.967% 0%,38.298% 0%,36.631% 0%,34.967% 0%,33.306% 0%,33.306% 0%,31.642% 0%,29.98% 0%,28.319% 0%,26.659% 0%,25% 0%,23.341% 0%,21.681% 0%,20.02% 0%,18.358% 0%,16.694% 0%,16.694% 0%,15.036% 0%,13.391% 0%,11.777% 0%,10.212% 0%,8.712% 0%,7.294% 0%,5.977% 0%,4.776% 0%,3.71% 0%,2.796% 0%,0% 0% );}
+
+.cookbook-circle {position: absolute;
+  margin-top: 10px;
+  margin-left: 320px;
+  width: 90px;
+  height: 90px;
+  border-radius: 180px;
+  border: solid 10px #f7f7f7;
+  background-color: #eee;
+z-index: 1;}
+
+.cookbook-circle path {
+  fill: transparent;
+}
+
+.cookbook-circle text {
+  fill: #232323;
+  font-size: 62px;
+  letter-spacing: 17px;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+.cookbook-icon {position: absolute;
+margin-top: -70px;
+  margin-left: 18px;
+font-size: 50px;
+  background: linear-gradient(2deg, rgba(var(--third), 0.7) 0%, rgba(var(--accent), 0.98) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+.cookbook-body {
+font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 15px;
+  margin-top: -150px;
+  padding: 25px;
+  color: #333333;
+  text-align: justify;
+  
+}
+
+.cookbook-body hr
+{background-color: rgba(var(--accent));
+padding: 1px;
+border: none;
+width: 150px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+.cookbook-body b
+{color: rgba(var(--main));
+font-weight: 900;}
+
+.cookbook-body i {
+    opacity: 0.75;
+    font-weight: 700;
+}
+
+.cookbook-body u {
+  font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(var(--main), 0.6) 0%, rgba(var(--accent), 0.75) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2.5px;
+    padding-bottom: 0px;
+    background-repeat: repeat-x;
+}
+
+.cookbook-bottom a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(var(--main));
+  font-weight: 200;
+  font-size: 10px;
+}
+
+.cookbook-bottom {background-color: #eee;
+padding: 10px;
+border-radius: 0px 0px 7px 10px;
+color: #555;
+  font-size: 12px;
+font-family: 'Nunito', sans-serif;}
+
+.cookbook-bottom a.user-tagged {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  color: rgba(var(--main));
+}
