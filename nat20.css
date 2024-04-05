@@ -114,7 +114,7 @@ color: #fbfbfb;
 }
 
 .paladin {
-    padding: 50px 50px 5px 50px;
+    padding: 50px 50px 40px 50px;
     position: relative;
     z-index: 1;
     line-height: 28px;
@@ -171,12 +171,14 @@ font-size: 12px;
     padding: 7px;
 }
 
+
 .ranger a {
-  font-weight: 900;
+    font-weight: 900;
     line-height: 17px;
     display: inline;
     position: relative;
-text-transform: uppercase;
+    text-transform: uppercase;
+    color: rgba(var(--alt));
 }
 
  .ranger a:before {
