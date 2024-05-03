@@ -54,7 +54,7 @@ transform: rotate(-40deg);
 transform: rotate(140deg);
 font-size: 50px;
 color: rgba(var(--main));
-top: -5px;
+top: 0px;
 left: 125px;
    filter: drop-shadow(0px -3px 0px #848484);
 }
