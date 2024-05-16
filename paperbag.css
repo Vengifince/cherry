@@ -116,7 +116,7 @@ font-weight: 600;
     text-decoration: none;
 }
 
-.ranger {
+.bag-tag {
 font-size: 12px;
     text-align: right;
     margin: 15px 70px 10px;
@@ -127,7 +127,7 @@ font-size: 12px;
     padding: 7px;
 }
 
-.ranger a {
+.bag-tag a {
     font-weight: 900;
     line-height: 17px;
     display: inline;
@@ -136,7 +136,7 @@ font-size: 12px;
     color: rgba(var(--alt));
 }
 
-.ranger a:before {
+.bag-tag a:before {
     content: '\e91e';
     font-size: 12px;
     margin-right: 0px;
