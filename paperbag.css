@@ -83,10 +83,10 @@ background: linear-gradient(27deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%);
 }
 
 .paperbag-body {
-       font-size: 15px;
- line-height: 28px;
+    font-size: 15px;
+    line-height: 28px;
     text-align: justify;
-padding: 55px 70px 35px 70px;
+    padding: 65px 80px 60px 80px;
     position: relative;
     z-index: 1;
 }
