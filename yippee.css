@@ -565,14 +565,14 @@ position: absolute;
 }
 
 .cc-ship-blurb {
-     border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     color: #b5b5b5;
     font-family: Quicksand;
     font-size: 12px;
     font-weight: 600;
     padding: 10px 5px 5px 0px;
     margin-left: 8px;
-    height: 100px;
+    height: 230px;
     overflow: auto;
     text-align: center;
     display: inline-flex;
@@ -580,6 +580,10 @@ position: absolute;
     justify-content: space-evenly;
     align-content: flex-start;
     align-items: center;
+}
+
+.cc-ships::-webkit-scrollbar {
+  display: none;
 }
 
 .ship {
