@@ -293,6 +293,10 @@ padding: 20px;
     padding: 4px;
 }
 
+.cc-bag::-webkit-scrollbar {
+  display: none;
+}
+
 .cc-right span {
   position: absolute;
   font-size: 40px;
