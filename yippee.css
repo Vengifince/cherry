@@ -1,3 +1,7 @@
+        @font-face {
+    font-family: 'Sunday';
+    src: url('https://files.jcink.net/uploads2/clowncityx/Sunday_Bloom.ttf');
+     }
 @font-face {
     font-family: 'Kinda';
     src: url('https://files.jcink.net/uploads2/clowncityx/Kinda_Regular.ttf');
@@ -6,17 +10,14 @@
 
 
 
-.uncocacola::-webkit-scrollbar {
-background:transparent;
-border:0px;
-height:1px;
-width:0px; }
-.uncocacola::-webkit-scrollbar-thumb {
-background:transparent;
-border:0px; }
-.cc-tl::-webkit-scrollbar-thumb {
-background:transparent;
-border:0px; }
+.cc-threadship::-webkit-scrollbar {
+  display: none;
+}
+
+#cc-tl::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
 
 .uncocacola {
   position: relative;
@@ -24,10 +25,11 @@ border:0px; }
   height: 550px;
   color: #666;
   background: #f4f4f4;
+  line-height: normal;
+  border: 2px solid rgb(var(--alt), 0.2);
   border-radius: 20px;
   padding: 15px;
   margin:25px auto;
-  border: 5px #ddd solid;
   z-index: 1;
   overflow: hidden;
   transition-timing-function: ease-in-out;
@@ -52,6 +54,7 @@ border:0px; }
   bottom: -500px;
   transition: .5s;
   z-index: 5;
+   overflow-x: hidden;
 }
 
 .uncocacola input:checked+label ~ .toggle-content {
@@ -417,7 +420,7 @@ position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-  width: 340px;
+  width: 335px;
     padding-left: 15px;
     padding-right: 0px;
     z-index: 6;
@@ -427,7 +430,6 @@ position: relative;
 display: block;
     position: sticky;
     top: 0px;
-    margin-top: 10px;
     height: 35px;
   width: 100%;
     right: 0px;
@@ -466,8 +468,7 @@ display: block;
 background: #F0F0F0;
   border: 2px rgba(var(--main), 0.3) solid;
     border-radius: 10px;
-      box-shadow: 2px 2px 0px rgba(var(--alt), .4);
-    padding: 20px;
+        padding: 20px;
     font-size: 10px;
     line-height: 12px;
     display: block;
@@ -546,7 +547,6 @@ background: #F0F0F0;
 position: absolute;
     right: 10px;
     top: 0px;
-    width: 360px;
     height: 450px;
     overflow: auto;
 }
