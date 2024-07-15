@@ -1,0 +1,158 @@
+.padam {
+  width: 420px;
+  background: #EAEAEA;
+  position: relative;
+   margin: 20px auto;
+   border: 2px solid #EDEDED;
+  border-radius: 15px;
+    color: #444;
+    font: 15px proxima nova reg;
+  line-height: 24px;
+  overflow: hidden;
+  --gradient: linear-gradient(90deg, rgba(var(--main)) 35%, rgba(var(--alt)) 100%);
+    --underline: radial-gradient(circle, rgba(var(--main), 0.80) 10%, rgba(var(--alt), 0.80) 100%);
+    --text-shadow: -1px -1px 0 rgb(255 255 255), 1px -1px 0 rgb(255 255 255), -1px 1px 0 rgb(255 255 255), 1px 1px 0 rgb(255 255 255);
+  --bar: linear-gradient(27deg, rgba(var(--main)) 0%, rgba(var(--alt)) 100%)
+}
+
+.pd-bar {
+  background: linear-gradient(27deg, rgba(var(--main)) 0%, rgba(var(--alt)) 85%);
+    opacity: 0.40;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50px;
+}
+
+.pd-bar:before {
+  content: '';
+    display: block;
+    position: absolute;
+    right: -25px;
+    width: 25px;
+    height: 80px;
+    background: rgba(var(--alt));
+    border-radius: 0px 0px 15px 0px;
+}
+
+.pd-bar:after {
+    content: '';
+    display: block;
+    border-right: 25px solid rgba(var(--alt), 0);
+    border-left: 25px solid rgba(var(--alt), 1);
+    border-top: 25px solid rgba(var(--alt), 0);
+    position: absolute;
+    top: 85px;
+    right: -36px;
+    transform: rotate(90deg);
+}
+
+.pd-icon span {
+  color: #fbfbfb;
+    background: linear-gradient(to top, rgba(var(--main)) 50%, rgba(var(--alt)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+  font-size: 65px;
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+   transform: rotate(-10deg);
+  z-index: 5;
+}
+
+.pd-dots {
+    background-image: radial-gradient(rgba(var(--main)) 20%, transparent 20%);
+  opacity: 0.25;
+  background-position: 0 0;
+  background-size: 12px 12px;
+  height: 100%;
+  width: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.pd-date {
+         color: #666;
+    font-size: 22px;
+  font-family: varelmo;
+  line-height: 18px;
+    position: relative;
+   top: 30px;
+  left: 35px;
+    letter-spacing: 1px;
+}
+
+.pd-date b {
+  color: rgba(var(--main), 0.8);
+  font-size: 32px;
+  text-shadow: rgb(244, 244, 244) 3px 0px 0px, rgb(244, 244, 244) 2.83487px 0.981584px 0px, rgb(244, 244, 244) 2.35766px 1.85511px 0px, rgb(244, 244, 244) 1.62091px 2.52441px 0px, rgb(244, 244, 244) 0.705713px 2.91581px 0px, rgb(244, 244, 244) -0.287171px 2.98622px 0px, rgb(244, 244, 244) -1.24844px 2.72789px 0px, rgb(244, 244, 244) -2.07227px 2.16926px 0px, rgb(244, 244, 244) -2.66798px 1.37182px 0px, rgb(244, 244, 244) -2.96998px 0.42336px 0px, rgb(244, 244, 244) -2.94502px -0.571704px 0px, rgb(244, 244, 244) -2.59586px -1.50383px 0px, rgb(244, 244, 244) -1.96093px -2.27041px 0px, rgb(244, 244, 244) -1.11013px -2.78704px 0px, rgb(244, 244, 244) -0.137119px -2.99686px 0px, rgb(244, 244, 244) 0.850987px -2.87677px 0px, rgb(244, 244, 244) 1.74541px -2.43999px 0px, rgb(244, 244, 244) 2.44769px -1.73459px 0px, rgb(244, 244, 244) 2.88051px -0.838247px 0px;
+}
+
+.pd-date i {
+    text-shadow: rgb(244, 244, 244) 3px 0px 0px, rgb(244, 244, 244) 2.83487px 0.981584px 0px, rgb(244, 244, 244) 2.35766px 1.85511px 0px, rgb(244, 244, 244) 1.62091px 2.52441px 0px, rgb(244, 244, 244) 0.705713px 2.91581px 0px, rgb(244, 244, 244) -0.287171px 2.98622px 0px, rgb(244, 244, 244) -1.24844px 2.72789px 0px, rgb(244, 244, 244) -2.07227px 2.16926px 0px, rgb(244, 244, 244) -2.66798px 1.37182px 0px, rgb(244, 244, 244) -2.96998px 0.42336px 0px, rgb(244, 244, 244) -2.94502px -0.571704px 0px, rgb(244, 244, 244) -2.59586px -1.50383px 0px, rgb(244, 244, 244) -1.96093px -2.27041px 0px, rgb(244, 244, 244) -1.11013px -2.78704px 0px, rgb(244, 244, 244) -0.137119px -2.99686px 0px, rgb(244, 244, 244) 0.850987px -2.87677px 0px, rgb(244, 244, 244) 1.74541px -2.43999px 0px, rgb(244, 244, 244) 2.44769px -1.73459px 0px, rgb(244, 244, 244) 2.88051px -0.838247px 0px;
+  padding-left: 50px;
+  font-family: hybrid;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.pd-body {
+  margin: 25px 45px;
+    border: 1px solid rgba(var(--lgray), 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    display: block;
+}
+
+.pd-body b {
+  background: -webkit-linear-gradient(275deg, rgba(var(--main)) 35%, rgba(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pd-body u {
+  font-weight: 600;
+    border-image-source: var(--underline);
+    border-bottom: 2px solid;
+    border-width: 2px;
+    border-image-slice: 2;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+.pd-body i {
+     opacity: 0.55;
+}
+
+.pd-tag {
+  font-size: 12px;
+    text-align: right;
+    margin: 15px 70px 10px;
+    line-height: 15px;
+    background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, var(--underline) border-box;
+    border-top: 2px solid transparent;
+    opacity: 0.65;
+    padding: 7px;
+}
+.pd-tag a {
+    font-weight: 900;
+    line-height: 17px;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    color: rgba(var(--main));
+}
+
+.pd-tag i {
+    font-size: 14px;
+    margin-right: 0px;
+    background: rgba(var(--main));
+    background: linear-gradient(0deg, rgba(var(--main)), rgba(var(--alt)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
