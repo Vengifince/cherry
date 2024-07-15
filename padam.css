@@ -102,11 +102,8 @@
 
 .pd-body {
   margin: 25px 45px;
-    border: 1px solid rgba(var(--lgray), 0.85);
     padding: 30px;
-    border-radius: 15px;
-    position: relative;
-    display: block;
+    text-align: justify;
 }
 
 .pd-body b {
