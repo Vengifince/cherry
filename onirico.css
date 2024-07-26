@@ -127,3 +127,15 @@ font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.oni-dots {
+    background-image: radial-gradient(rgba(var(--alt)) 20%, transparent 20%);
+  opacity: 0.25;
+  background-position: 0 0;
+  background-size: 12px 12px;
+  height: 100%;
+  width: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
