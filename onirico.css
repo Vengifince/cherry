@@ -73,9 +73,8 @@
 }
 
 .oni-body b {
-  background: -webkit-linear-gradient(270deg, rgba(var(--main)) 35%, rgba(var(--alt)));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(var(--main), 0.8);
+    font-weight: 900;
 }
 
 .oni-body u {
