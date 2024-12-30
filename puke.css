@@ -78,12 +78,12 @@ background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, linear-gradient(to ri
 }
 
 .puke-post {
-  font-family: 'proxima nova reg';
+    font-family: 'proxima nova reg';
     color: #444;
     font-size: 15px;
     text-align: justify;
     padding: 80px 50px 55px 50px;
-    line-height: 19px;
+    line-height: 23px;
     min-height: 100px;
 }
 
