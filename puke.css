@@ -87,6 +87,10 @@ background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, linear-gradient(to ri
     min-height: 100px;
 }
 
+.puke-post i {
+  opacity: 0.65;
+}
+
 .puke-tagged {
   font-size: 12px;
   position: relative;
