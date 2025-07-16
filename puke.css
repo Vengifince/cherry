@@ -6,9 +6,9 @@
    border: 2px solid #EDEDED;
   background: #EAEAEA;
   border-radius: 15px;
-box-shadow: 14px 14px 0px 1px rgba(66,66,66,1);
+box-shadow: 5px 5px 0px rgba(62,62,62,0.85);
     color: #323232;
-    font: 15px proxima nova reg;
+    font: 15px "Urbanist", sans-serif;
   line-height: 24px;
   overflow: hidden;
   --gradient: linear-gradient(90deg, rgba(var(--main)) 35%, rgba(var(--alt)) 100%);
@@ -23,11 +23,11 @@ box-shadow: 14px 14px 0px 1px rgba(66,66,66,1);
     border-radius: 10px;
      background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, linear-gradient(to right, rgba(var(--main), 0.5), rgba(var(--alt), 0.45)) border-box;
     border: 2px solid transparent;
-  font-family: proxima nova reg;
+  font-family: "Urbanist", sans-serif;
 }
 
 .puke-icon span {
-  font-size: 55px;
+  font-size: 62px;
   top: -20px;
   position: absolute;
   left: -25px;
@@ -78,21 +78,18 @@ background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, linear-gradient(to ri
 }
 
 .puke-post {
-    font-family: 'proxima nova reg';
+  font-family: "Urbanist", sans-serif;
     color: #444;
-    font-size: 14px;
+    font-size: 15px;
     text-align: justify;
     padding: 80px 50px 55px 50px;
-    line-height: 23px;
+    line-height: 19px;
     min-height: 100px;
-}
-
-.puke-post i {
-  opacity: 0.65;
 }
 
 .puke-tagged {
   font-size: 12px;
+  font-family: "Urbanist", sans-serif;
   position: relative;
     line-height: 15px;
     padding: 10px;
@@ -123,7 +120,7 @@ background: linear-gradient(#EAEAEA, #EAEAEA) padding-box, linear-gradient(to ri
 }
 
 .puke-post u {
-font-family: proxima nova semi bold;
+font-family: "Urbanist", sans-serif bold;
     border-image-source: var(--underline);
     border-bottom: 2px solid;
     border-width: 2px;
@@ -133,6 +130,15 @@ font-family: proxima nova semi bold;
 }
 
 .puke-post b {
-      color: rgba(var(--main));
-    font-family: proxima nova bold;
+          color: rgba(var(--main));
+    background: -webkit-linear-gradient(bottom left, rgba(var(--main), 0.85), rgba(var(--alt), 0.85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-shadow: none;
+    font-family: "Urbanist", sans-serif bold;
+}
+
+.puke-post i {
+  opacity: 0.75;
 }
